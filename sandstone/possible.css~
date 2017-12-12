@@ -1,4 +1,4 @@
-body {
+body{
     background-color:#F5F5F5;
     background-image:url(home.jpg);
     background-position:center;
@@ -6,7 +6,7 @@ body {
     background-blend-mode:soft-light;
 }
 
-.heading {
+.heading{
     width:100%;
     height:400px;
     margin:auto;
@@ -14,7 +14,7 @@ body {
     top:0px; bottom:0px; right:0px; left:0px;
 }
 
-.centerdiv {
+.centerdiv{
 	width:100%;
 	position:absolute; 
 	top:20%; 
@@ -28,7 +28,7 @@ body {
     background-blend-mode:soft-light;
 }
 
-.title1 {
+.title1{
 	
     
     display:block;
@@ -42,7 +42,7 @@ body {
     opacity:0.8;
 }
 
-.showarticles {
+.showarticles{
     margin: 50px auto;
     padding:1%;
     display:block;
@@ -57,7 +57,7 @@ body {
     font-size:1em;
     transition: background-color 1000ms, color 1000ms;
 }
-.showarticles:hover {
+.showarticles:hover{
     background-color:rgba(255,255,255,1);
     color:#222;
     border:5px solid b;
@@ -65,26 +65,25 @@ body {
     font-weight:bold;
     transition: background-color 1000ms, color 1000ms, border 1000ms;
 }
-
-main {
+main{
   margin: 50px 50px;
 }
 
-.articleheader {
+.articleheader{
 	padding:5%; 
 	font-family:"Courier New", Courier, monospace; 
 	font-weight:bold; 
-	letter-spacing:2px; 
+	letter-spacing: 2px; 
 	color:#082b63;
 }
 
-.articleholder {
+.articleholder{
 	position: relative;
     width:100%;
     height:0;
     padding:50%;
 }
-.article {
+.article{
 	position: absolute;
     top: 0;
     left: 0;
@@ -92,46 +91,10 @@ main {
     height: 100%;
 }
 
-.authorstyle {
+.authorstyle{
 	font-weight:bold; 
 	text-align:right; 
 	font-size:20px; 
 	color:#470101; 
 	padding:5%
-}
-
-.service-list {
-	list-style-type: none;
-	width:auto;
-	margin-left:0px;
-	padding-left:20px;
-	padding-bottom:5%;
-	display: inline-block;
-}
-
-.service-list img
-{
-	height:240px; 
-	width:320;
-	display:block;
-	padding:20px;
-	padding-right:30px;
-	float:left;
-}
-
-.service-list h1 {
-	color:#010e23;
-	display:inline-block;
-	padding:5px;
-}
-
-.art_description {
-	font-weight:bold; 
-	font-size:16px;
-	letter-spacing:2px;
-}
-
-.service-list2 {
-	list-style-type: none; 
-	padding-bottom:2%;
 }

@@ -65,9 +65,9 @@
 
                   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                    <li><a href="./articles.html">Articles</a></li>
-					<li><a href="./contactus.html">Contact us</a></li>
-					<li><a href="./appform.html">Work with us</a></li>
+                    <li><a href="../articles.html">Articles</a></li>
+					<li><a href="../contactus.html">Contact us</a></li>
+					<li><a href="../appform.html">Work with us</a></li>
                     </ul>
                   </div>
                 </div>
@@ -78,10 +78,22 @@
           </div>
         </div>
       </div>
+      
+      <main>
+      <div class="heading">
+        <div class="centerdiv">
+          <p class="title1">
+            World starts with you, not the otherway around.
+            <br><br>In Youniquemag, we value one's individuality.
+            <br><br>Be the example to those who need one to survive, BE YOUNIQUE!
+          </p>
+          <button class="showarticles">
+                SHOW ARTICLES
+          </button>
+        </div>
+      </div>
+      </main>
     
-    <main>
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdOaZ9p9SwnVtmwd-eM0_hcJhKLiQGlMiUN_yMDDeK3kuI4rQ/viewform?embedded=true" width="100%" height="1100" align="middle" scrolling="no" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-    </main>
     
     <footer>
       <div class="row">
@@ -100,6 +112,3 @@
     <script src="../assets/js/custom.js"></script>
     
   </div>
-
-  
-  
