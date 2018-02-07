@@ -83,6 +83,7 @@ main {
     width:100%;
     height:0;
     padding:50%;
+    background:white;
 }
 .article {
 	position: absolute;
@@ -106,7 +107,9 @@ main {
 	margin-left:0px;
 	padding-left:20px;
 	padding-bottom:5%;
-	display: inline-block;
+	display:inline-block;
+	background:white;
+	border:solid;
 }
 
 .service-list img
@@ -133,5 +136,9 @@ main {
 
 .service-list2 {
 	list-style-type: none; 
+	padding-left:5%;
 	padding-bottom:2%;
+	background:white;
+	background-blend-mode:soft-light;
+	border:solid;
 }
