@@ -16,9 +16,9 @@ body {
 
 .centerdiv {
 	width:100%;
-	position:absolute; 
-	top:20%; 
-	height:10em; 
+	position:absolute;
+	top:20%;
+	height:10em;
 	margin-top:-5em;
 	padding:5%;
 	background-color:#F5F5F5;
@@ -29,8 +29,8 @@ body {
 }
 
 .title1 {
-	
-    
+
+
     display:block;
     margin-top:15px;
     padding-bottom:5%;
@@ -71,10 +71,10 @@ main {
 }
 
 .articleheader {
-	padding:5%; 
-	font-family:"Courier New", Courier, monospace; 
-	font-weight:bold; 
-	letter-spacing:2px; 
+	padding:5%;
+	font-family:"Courier New", Courier, monospace;
+	font-weight:bold;
+	letter-spacing:2px;
 	color:#082b63;
 }
 
@@ -94,10 +94,10 @@ main {
 }
 
 .authorstyle {
-	font-weight:bold; 
-	text-align:right; 
-	font-size:20px; 
-	color:#470101; 
+	font-weight:bold;
+	text-align:right;
+	font-size:20px;
+	color:#470101;
 	padding:5%
 }
 
@@ -114,7 +114,7 @@ main {
 
 .service-list img
 {
-	height:240px; 
+	height:240px;
 	width:320;
 	display:block;
 	padding:20px;
@@ -129,16 +129,46 @@ main {
 }
 
 .art_description {
-	font-weight:bold; 
+	font-weight:bold;
 	font-size:16px;
 	letter-spacing:2px;
 }
 
 .service-list2 {
-	list-style-type: none; 
+	list-style-type: none;
 	padding-left:5%;
 	padding-bottom:2%;
 	background:white;
 	background-blend-mode:soft-light;
 	border:solid;
+}
+div #wrapper{
+  margin 0 auto;
+}
+
+main {
+  margin: 50px 50px;
+  margin-bottom: 100px;
+}
+footer{
+border-top: 1px solid #808080;
+}
+@@media media screen and (max-width: 700px) {
+  footer {
+  position:fixed;
+  margin: 0, 0, 0, 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  padding: 1em 3%;
+  padding-bottom: 1em;
+
+  }
+  .title1{
+    font-style: italic;
+    font-family: sans-serif;
+    font: arial;
+    font-size: 2em;
+  }
 }
