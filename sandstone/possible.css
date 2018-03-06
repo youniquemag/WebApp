@@ -1,69 +1,71 @@
 body {
-    background-color:#F5F5F5;
-    background-image:url(home.jpg);
-    background-position:center;
-    background-size:cover;
-    background-blend-mode:soft-light;
+  background-color: #F5F5F5;
+  background-image: url(home.jpg);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: soft-light;
 }
 
 .heading {
-    width:100%;
-    height:400px;
-    margin:auto;
-    position:relative;
-    top:0px; bottom:0px; right:0px; left:0px;
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  position: relative;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
 }
 
 .centerdiv {
-	width:100%;
-	position:absolute;
-	top:20%;
-	height:10em;
-	margin-top:-5em;
-	padding:5%;
-	background-color:#F5F5F5;
-    background-image:url(home.jpg);
-    background-position:center;
-    background-size:cover;
-    background-blend-mode:soft-light;
+  width: 100%;
+  position: absolute;
+  top: 20%;
+  height: 10em;
+  margin-top: -5em;
+  padding: 5%;
+  background-color: #F5F5F5;
+  background-image: url(home.jpg);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: soft-light;
 }
 
 .title1 {
-
-
-    display:block;
-    margin-top:15px;
-    padding-bottom:5%;
-    text-align: center;
-    color:black;
-    font-size:2em;
-    font-weight:bold;
-    font-family:"Comic Sans MS", cursive, sans-serif;
-    opacity:0.8;
+  display: block;
+  margin-top: 15px;
+  padding-bottom: 5%;
+  text-align: center;
+  color: black;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  opacity: 0.8;
 }
 
 .showarticles {
-    margin: 50px auto;
-    padding:1%;
-    display:block;
-    width:180px;
-    height:50px;
-    border:3px solid grey;
-    background-color:rgba(255,255,255,0);
-    color:black;
-    font-family:sans-serif;
-    font-family:Verdana, Geneva, sans-serif;
-    border-radius: 5px;
-    font-size:1em;
-    transition: background-color 1000ms, color 1000ms;
+  margin: 50px auto;
+  padding: 1%;
+  display: block;
+  width: 180px;
+  height: 50px;
+  border: 3px solid grey;
+  background-color: rgba(255, 255, 255, 0);
+  color: black;
+  font-family: sans-serif;
+  font-family: Verdana, Geneva, sans-serif;
+  border-radius: 5px;
+  font-size: 1em;
+  transition: background-color 1000ms, color 1000ms;
 }
+
 .showarticles:hover {
-    background-color:rgba(255,255,255,1);
-    color:#222;
-    border:5px solid b;
-    cursor:pointer;
-    font-weight:bold;
-    transition: background-color 1000ms, color 1000ms, border 1000ms;
+  background-color: rgba(255, 255, 255, 1);
+  color: #222;
+  border: 5px solid b;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 1000ms, color 1000ms, border 1000ms;
 }
 
 main {
@@ -71,78 +73,91 @@ main {
 }
 
 .articleheader {
-	padding:5%;
-	font-family:"Courier New", Courier, monospace;
-	font-weight:bold;
-	letter-spacing:2px;
-	color:#082b63;
+  padding: 5%;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #082b63;
 }
 
 .articleholder {
-	position: relative;
-    width:100%;
-    height:0;
-    padding:50%;
-    background:white;
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding: 50%;
+  background: white;
 }
+
 .article {
-	position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .authorstyle {
-	font-weight:bold;
-	text-align:right;
-	font-size:20px;
-	color:#470101;
-	padding:5%
+  font-weight: bold;
+  text-align: right;
+  font-size: 20px;
+  color: #470101;
+  padding: 5%
 }
 
 .service-list {
-	list-style-type: none;
-	width:auto;
-	margin-left:0px;
-	padding-left:20px;
-	padding-bottom:5%;
-	display:inline-block;
-	background:white;
-	border:solid;
+  list-style-type: none;
+  width: auto;
+  margin-left: 0px;
+  padding-left: 20px;
+  padding-bottom: 5%;
+  display: inline-block;
+  background: white;
+  border: solid;
 }
 
-.service-list img
-{
-	height:240px;
-	width:320;
-	display:block;
-	padding:20px;
-	padding-right:30px;
-	float:left;
+.service-list img {
+  height: 240px;
+  width: 320;
+  display: block;
+  padding: 20px;
+  padding-right: 30px;
+  float: left;
 }
 
 .service-list h1 {
-	color:#010e23;
-	display:inline-block;
-	padding:5px;
+  color: #010e23;
+  display: inline-block;
+  padding: 5px;
 }
 
 .art_description {
-	font-weight:bold;
-	font-size:16px;
-	letter-spacing:2px;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 2px;
 }
 
 .service-list2 {
-	list-style-type: none;
-	padding-left:5%;
-	padding-bottom:2%;
-	background:white;
-	background-blend-mode:soft-light;
-	border:solid;
+  list-style-type: none;
+  padding-left: 5%;
+  padding-bottom: 2%;
+  background: white;
+  background-blend-mode: soft-light;
+  border: solid;
 }
-div #wrapper{
+
+.subcat {
+  line-height: 25px;
+  background-color: f8f5f0;
+  background-blend-mode:soft-light;
+}
+
+.subcat a {
+  color: black;
+  fort-size: 1em;
+  letter-spacing: 2px;
+}
+
+div #wrapper {
   margin 0 auto;
 }
 
@@ -150,73 +165,69 @@ main {
   margin: 50px 50px;
   margin-bottom: 100px;
 }
-footer{
-border-top: 1px solid #808080;
+
+footer {
+  border-top: 1px solid #808080;
 }
+
 @media media screen and (max-width: 700px) {
   footer {
-  position:fixed;
-  margin: 0, 0, 0, 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  max-width: 100%;
-  padding: 1em 3%;
-  padding-bottom: 1em;
-
+    position: fixed;
+    margin: 0, 0, 0, 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    max-width: 100%;
+    padding: 1em 3%;
+    padding-bottom: 1em;
   }
-  .title1{
+  .title1 {
     font-style: italic;
     font-family: sans-serif;
     font: arial;
     font-size: 2em;
   }
 }
+
 @media media screen and (min-width: 700px) {
-
-/* Generic rules for drop down */
-
-/* Dropdown Button */
-.dropbtn {
+  /* Generic rules for drop down */
+  /* Dropdown Button */
+  .dropbtn {
     background-color: #4CAF50;
     color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
+  }
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
     position: relative;
     display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
+  }
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
     z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
+  }
+  /* Links inside the dropdown */
+  .dropdown-content li a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
+  }
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd
+  }
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
     display: block;
-}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
+  }
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
     background-color: #3e8e41;
-}
+  }
 }
