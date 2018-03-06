@@ -19,12 +19,10 @@ body {
 }
 
 .nav-fixed-bar {
-  background-color: rgba(242, 249, 248, 0.9);
+  background-color: rgba(242, 249, 248, 0.95);
   background-blend-mode: soft-light;
   padding-top: 5%;
   margin-bottom: 5%;
-  position: fixed;
-  top: 0;
   width: 100%;
   z-index: 1;
 }
@@ -202,30 +200,45 @@ footer {
   bottom: 0;
 }
 
-@media media screen and (max-width: 700px) {
-  footer {
+@media screen and (max-width: 700px) {
+  /*footer {
     position: absolute;
+    overflow: hidden;
     margin: 0, 0, 0, 0;
-    right: 0;
+    bottom: 0;
     left: 0;
-    max-width: 100%;
+    width: 100%;
     padding: 1em 3%;
     padding-bottom: 1em;
-  }
-  .centerdiv {
-    margin-top: 40%;
-  }
+  }*/
+
   .title1 {
     font-style: italic;
     font-family: sans-serif;
     font: arial;
     font-size: 2em;
   }
+
 }
 
-@media media screen and (min-width: 700px) {
+
+
+@media screen and (min-width: 700px) {
   /* Generic rules for drop down */
   /* Dropdown Button */
+  .art-temp-1 {
+    margin-top: 40%;
+  }
+  .centerdiv {
+    margin-top: 30%;
+  }
+  .nav-fixed-bar {
+    position: fixed;
+    top: 0;
+  }
+  .art-cont {
+    margin-top: 50%;
+  }
   .dropbtn {
     background-color: #4CAF50;
     color: white;
