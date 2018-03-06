@@ -32,7 +32,7 @@ body {
 }
 
 .title1 {
-  display: block;
+  display: run-in;
   margin-top: 15px;
   padding-bottom: 5%;
   text-align: center;
@@ -147,14 +147,44 @@ main {
 
 .subcat {
   line-height: 25px;
-  background-color: f8f5f0;
-  background-blend-mode:soft-light;
+}
+
+.subcat ul {
+  list-style-type: none;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%%;
+}
+
+.subcat li {
+  background-color: #d2e4f7;
+  text-align: center;
+  border-bottom-style: outset;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 5%;
+  margin-bottom: 5%%;
+}
+
+.subcat li:hover {
+  background-color: #a9ccf2
 }
 
 .subcat a {
   color: black;
-  fort-size: 1em;
   letter-spacing: 2px;
+  text-decoration: none;
+}
+
+.subcat a:hover {
+  letter-spacing: 2.5px;
+}
+
+.name-logo {
+  display: center;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 div #wrapper {
