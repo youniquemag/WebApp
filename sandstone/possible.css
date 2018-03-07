@@ -25,7 +25,6 @@ body {
   background-color: rgba(242, 249, 248, 0.95);
   background-blend-mode: soft-light;
   padding-top: 1%;
-  margin-bottom: 5%;
   width: 100%;
   z-index: 1;
 }
@@ -43,7 +42,6 @@ body {
 
 .title1 {
   display: run-in;
-  margin-top: 15px;
   padding-bottom: 5%;
   text-align: center;
   color: black;
@@ -79,7 +77,7 @@ body {
 }
 
 main {
-  margin: 20px 10% 10% 10% ;
+  margin: 20px 12% 12% 12% ;
 }
 
 .articleheader {
@@ -171,13 +169,14 @@ main {
 }
 
 .subcat li {
-  background-color: #d2e4f7;
+  background-color: #f7faff;
   text-align: center;
   margin-left: 2%;
   margin-right: 2%;
   margin-top: 5%;
   margin-bottom: 5%%;
-  box-shadow: -2px 2px 1px #030c60;
+  box-shadow: -2px 1px 1px 1px #c4d4ef;
+  padding: 5%;
 }
 
 .subcat li:hover {
@@ -191,7 +190,7 @@ main {
 }
 
 .subcat a:hover {
-  letter-spacing: 2.5px;
+  letter-spacing: 2.8px;
 }
 
 div #wrapper {
@@ -213,7 +212,6 @@ footer {
 .fb-logo {
   color: black;
   font-weight: bold;
-  text-shadow: -1px 1px;
   letter-spacing: 1.5px;
 
 }
@@ -258,10 +256,7 @@ footer {
 }
 
 @media screenn and (max-width: 900px) {
-  /*values need to be corrected*/
-  .art-temp-1 {
-    margin-top: 40%;
-  }
+
   .centerdiv {
     margin-top: 20px;
   }
@@ -332,7 +327,7 @@ footer {
   /* Generic rules for drop down */
   /* Dropdown Button */
   .art-temp-1 {
-    margin-top: 40%;
+    margin-top: 15%;
   }
   .nav-fixed-bar {
     position: fixed;
