@@ -12,8 +12,10 @@ body {
   height: 400px;
 }
 
-.name-logo {
-  display: center;
+.name-logo img {
+  min-height: 90px;
+  min-width: 240px;
+  width: auto;
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -21,10 +23,15 @@ body {
 .nav-fixed-bar {
   background-color: rgba(242, 249, 248, 0.95);
   background-blend-mode: soft-light;
-  padding-top: 5%;
+  padding-top: 1%;
   margin-bottom: 5%;
   width: 100%;
   z-index: 1;
+}
+
+.nav-fixed-bar img {
+  max-width: 30%;
+  height: auto;
 }
 
 .centerdiv {
@@ -169,7 +176,7 @@ main {
   margin-right: 2%;
   margin-top: 5%;
   margin-bottom: 5%%;
-  box-shadow: 2px 2px #030c60;
+  box-shadow: -2px 2px 1px #030c60;
 }
 
 .subcat li:hover {
@@ -196,12 +203,40 @@ main {
 }
 
 footer {
-  border-top: 1px solid #808080;
+  background-color: rgba(242, 249, 248, 0.95);
+  background-blend-mode: soft-light;
+  margin: 0px 0px 0px 0px;
+  height: 10%;
+  max-height: 75px;
+  width: 100%;
+  color: black;
+  /*border-top: 2px groove #808080;*/
   bottom: 0;
 }
 
-@media screen and (max-width: 700px) {
-  /*footer {
+.fb-logo {
+  color: black;
+  font-weight: bold;
+  text-shadow: -1px 1px;
+  letter-spacing: 1.5px;
+
+}
+
+.fb-logo:hover {
+  color: black;
+  font-weight: bold;
+  text-shadow: 0 0;
+}
+.fb-logo img {
+  display: inline;
+  width: 50px;
+  height=auto;
+  padding: 5%;
+}
+
+@media screen and (max-width: 600px) {
+  footer {
+    /*
     position: absolute;
     overflow: hidden;
     margin: 0, 0, 0, 0;
@@ -209,8 +244,8 @@ footer {
     left: 0;
     width: 100%;
     padding: 1em 3%;
-    padding-bottom: 1em;
-  }*/
+    padding-bottom: 1em; */
+  }
 
   .title1 {
     font-style: italic;
@@ -218,12 +253,68 @@ footer {
     font: arial;
     font-size: 2em;
   }
-
 }
 
+@media screenn and (max-width: 900px) {
+  /*values need to be corrected*/
+  .art-temp-1 {
+    margin-top: 40%;
+  }
+  .centerdiv {
+    margin-top: 30%;
+  }
+  .nav-fixed-bar {
+    position: fixed;
+    top: 0;
+  }
+  .art-cont {
+    margin-top: 50%;
+  }
+  .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    z-index: 1;
+  }
+  /* Links inside the dropdown */
+  .dropdown-content li a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd
+  }
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+}
 
-
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 900px) {
+  footer {
+        position: fixed;
+        overflow-y: hidden;
+  }
   /* Generic rules for drop down */
   /* Dropdown Button */
   .art-temp-1 {
