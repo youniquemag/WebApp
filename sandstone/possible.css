@@ -248,6 +248,12 @@ footer {
     font: arial;
     font-size: 2em;
   }
+  .centerdiv{
+    margin: 0px;
+  }
+  .heading{
+    margin-top: 10px;
+  }
 }
 
 @media screenn and (max-width: 900px) {
@@ -281,13 +287,13 @@ footer {
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: white;
     z-index: 1;
   }
   /* Links inside the dropdown */
   .dropdown-content li a {
     color: black;
-    padding: 12px 16px;
+    padding: 15px 16px;
     text-decoration: none;
     display: block;
   }
@@ -310,13 +316,19 @@ footer {
         position: fixed;
         overflow-y: hidden;
   }
+.heading{
+  margin-top: 0px;
+}
+.nav-fixed-bar {
+  margin-bottom: 0px;
+}
+.centerdiv{
+  margin-top: 250px;
+}
   /* Generic rules for drop down */
   /* Dropdown Button */
   .art-temp-1 {
     margin-top: 40%;
-  }
-  .centerdiv {
-    margin-top: 30%;
   }
   .nav-fixed-bar {
     position: fixed;
