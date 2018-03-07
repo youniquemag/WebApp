@@ -88,6 +88,10 @@ main {
   color: #082b63;
 }
 
+.aritcleheader:hover {
+  text-decoration: none;
+}
+
 .articleholder {
   position: relative;
   width: 100%;
@@ -139,6 +143,7 @@ main {
 }
 
 .art_description {
+  color: #454647;
   font-weight: bold;
   font-size: 16px;
   letter-spacing: 2px;
@@ -150,7 +155,11 @@ main {
   padding-bottom: 2%;
   background: white;
   background-blend-mode: soft-light;
-  border: solid;
+}
+
+.service-list2:hover {
+  box-shadow: -2px 1px 1px 1px;
+  text-decoration: none;
 }
 
 .subcat {
