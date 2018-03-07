@@ -7,9 +7,10 @@ body {
 }
 
 .heading {
-  margin-top: 35%;
+  margin-top: 15%;
   width: 100%;
   height: 400px;
+  text-align: center;
 }
 
 .name-logo img {
@@ -262,7 +263,7 @@ footer {
     margin-top: 40%;
   }
   .centerdiv {
-    margin-top: 30%;
+    margin-top: 20px;
   }
   .nav-fixed-bar {
     position: fixed;
@@ -308,6 +309,9 @@ footer {
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {
     background-color: #3e8e41;
+  }
+  .heading{
+    margin-top: 20px;
   }
 }
 
