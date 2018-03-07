@@ -78,7 +78,7 @@ body {
 }
 
 main {
-  margin: 50px 50px;
+  margin: 20px 10% 10% 10% ;
 }
 
 .articleheader {
@@ -195,11 +195,6 @@ main {
 
 div #wrapper {
   margin 0 auto;
-}
-
-main {
-  margin: 50px 50px;
-  margin-bottom: 100px;
 }
 
 footer {
